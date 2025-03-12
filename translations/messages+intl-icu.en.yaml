@@ -1,13 +1,8 @@
 friendly_msg: 'This friendly message is coming...'
-i_have_apples: >-
-    {apples, plural,
-        =0    {I have no apples.}
-        =1    {I have an apple.}
-        other {I have # apples!}
-    }
-they_say: >-
-    {gender, select,
-        female {She {text}}
-        male {He {text}}
-        other {They {text}}
-    }
+i_have_apples: "{apples, plural,\n    =0    {I have no apples.}\n    =1    {I have an apple.}\n    other {I have # apples!}\n}"
+they_say: "{gender, select,\n    female {She {text}}\n    male {He {text}}\n    other {They {text}}\n}"
+account_reset_instructions: 'If an account matching your email exists, then an email was just sent that contains a link that you can use to reset your password.'
+link_expiration: 'This link will expire in '
+email_check: 'If you dont receive an email please check your spam folder or'
+try_again: 'try again'
+
