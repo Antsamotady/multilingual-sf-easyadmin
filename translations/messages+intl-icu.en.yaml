@@ -1,0 +1,13 @@
+friendly_msg: 'This friendly message is coming...'
+i_have_apples: >-
+    {apples, plural,
+        =0    {I have no apples.}
+        =1    {I have an apple.}
+        other {I have # apples!}
+    }
+they_say: >-
+    {gender, select,
+        female {She {text}}
+        male {He {text}}
+        other {They {text}}
+    }
