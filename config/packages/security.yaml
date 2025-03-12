@@ -46,7 +46,7 @@ security:
             form_login:
                 login_path: /login
                 check_path: /login_check
-                default_target_path: /brave/kangaroo
+                default_target_path: /user
                 username_parameter: email
                 password_parameter: password
             logout:
@@ -61,6 +61,7 @@ security:
         - { path: ^/admin/login, roles: PUBLIC_ACCESS }
         - { path: ^/login, roles: PUBLIC_ACCESS }
         - { path: ^/admin, roles: ROLE_ADMIN }
+        - { path: ^/user, roles: ROLE_USER }
 
 when@test:
     security:
