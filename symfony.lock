@@ -1,4 +1,10 @@
 {
+    "a2lix/auto-form-bundle": {
+        "version": "0.4.7"
+    },
+    "a2lix/translation-form-bundle": {
+        "version": "3.2.4"
+    },
     "doctrine/doctrine-bundle": {
         "version": "2.13",
         "recipe": {
@@ -49,6 +55,9 @@
         "files": [
             "./config/routes/easyadmin.yaml"
         ]
+    },
+    "knplabs/doctrine-behaviors": {
+        "version": "2.6.2"
     },
     "phpunit/phpunit": {
         "version": "9.6",
