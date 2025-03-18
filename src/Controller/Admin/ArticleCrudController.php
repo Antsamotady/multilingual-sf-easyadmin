@@ -40,6 +40,7 @@ class ArticleCrudController extends AbstractCrudController
     {
         return $filters
             ->add(TranslatableTextFilter::new('title'))
+            ->add(TranslatableTextFilter::new('body'))
         ;
     }
 }
