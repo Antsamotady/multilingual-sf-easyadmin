@@ -27,4 +27,19 @@ class Article implements TranslatableInterface
     {
         return PropertyAccess::createPropertyAccessor()->getValue($this->translate(), $name);
     }
+
+    public function getTitle(): ?string
+    {
+        return $this->title;
+    }
+
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    public function getBody()
+    {
+        return $this->body;
+    }
 }
