@@ -12,6 +12,12 @@
             {{ encore_entry_script_tags('app') }}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown-language">
+            <li><a class="dropdown-item" href="{{ path('app_forgot_password_request', {_locale: 'en'}) }}">English</a></li>
+            <li><a class="dropdown-item" href="{{ path('app_forgot_password_request', {_locale: 'fr'}) }}">Français</a></li>
+        </ul>
+
     </head>
     <body>
         {% for message in app.flashes('success') %}

@@ -5,4 +5,7 @@ account_reset_instructions: 'If an account matching your email exists, then an e
 link_expiration: 'This link will expire in '
 email_check: 'If you dont receive an email please check your spam folder or'
 try_again: 'try again'
+enter_email_address: 'Enter your email address, and we will send you a link to reset your password.'
+send_reset_pass_btn: 'Send password reset email'
+reset_your_pass: 'Reset your password'
 

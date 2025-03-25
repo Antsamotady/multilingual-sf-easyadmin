@@ -1,1 +1,4 @@
 friendly_msg: 'Ce message amical arrive...'
+enter_email_address: 'Tapez votre adresse email svp'
+send_reset_pass_btn: 'Envoyer'
+reset_your_pass: 'Changez votre mot de pass'
